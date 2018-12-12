@@ -21,29 +21,12 @@ namespace ContactsApp.Controls
     /// </summary>
     public partial class ContactControl : UserControl
     {
-        /*private Contact contact;
-
-        public Contact Contact
-        {
-            get { return contact; }
-            set
-            {
-                contact = value;
-                nameTextBlock.Text = contact.Name;
-                phoneTextBlock.Text = contact.PhoneNum;
-                emailTextBlock.Text = contact.Email;
-
-            }
-        }*/
-
-
 
         public Contact Contact
         {
             get { return (Contact)GetValue(ContactProperty); }
             set { SetValue(ContactProperty, value); }
         }
-
 
         //Provide a way to compute the value of a property based on the value of different things or different inputs
         // Using a DependencyProperty as the backing store for Contact.  This enables animation, styling, binding, etc...
