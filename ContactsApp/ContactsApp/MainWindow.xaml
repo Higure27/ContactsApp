@@ -15,11 +15,7 @@
                       Margin="0,5,0,5">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel>
-                            <TextBlock Text="{Binding Name}" FontSize="20" FontWeight="Bold"/>
-                            <TextBlock Text="{Binding PhoneNum}" FontSize="15" FontStyle="Italic"/>
-                            <TextBlock Text="{Binding Email}" FontSize="15" Foreground="DodgerBlue" />
-                        </StackPanel>
+                        <uc:ContactControl Contact="{Binding}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

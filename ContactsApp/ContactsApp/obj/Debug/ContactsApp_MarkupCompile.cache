@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Udemy\WPF\Lesson4_Contact_Application\ContactsApp\ContactsApp\App.xaml
-3-385385467
+4-1726005282
 2-1529431102
-81223556996
+91613593568
 71756646996
-MainWindow.xaml;NewContactWindow.xaml;UpdateContactWindow.xaml;
+Controls\ContactControl.xaml;MainWindow.xaml;NewContactWindow.xaml;UpdateContactWindow.xaml;
 
 False
 
